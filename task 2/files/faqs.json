@@ -1,0 +1,461 @@
+{
+  "SCH-001": [
+    {
+      "id": "eligibility",
+      "scheme_ref": "SCH-001",
+      "q_en": "Who is eligible for this scheme?",
+      "q_hi": "इस योजना के लिए कौन पात्र है?",
+      "a_en": "Farmers with land up to 2 hectares are eligible.",
+      "a_hi": "2 हेक्टेयर तक की ज़मीन वाले किसान पात्र हैं।",
+      "source_fields": [
+        "eligibility_land_limit"
+      ],
+      "sources": [
+        {
+          "field": "eligibility_land_limit",
+          "source": "SRC_K1",
+          "location": "p.1, section 3",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Farmers owning cultivable land up to 2 hectares are eligible."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "eligible_if",
+      "scheme_ref": "SCH-001",
+      "q_en": "Am I eligible if I own 3 hectares of land?",
+      "q_hi": "अगर मेरे पास 3 हेक्टेयर ज़मीन है, तो क्या मैं पात्र हूँ?",
+      "a_en": "According to the record, eligible farmers have land up to 2 hectares. You said you have 3 hectares, which is more than this limit, so you would not be eligible under this rule. If you are unsure, please check with the scheme office.",
+      "a_hi": "रिकॉर्ड के अनुसार, पात्र किसानों के पास 2 हेक्टेयर तक की ज़मीन होती है। आपके पास 3 हेक्टेयर है, जो इस सीमा से अधिक है, इसलिए इस नियम के अनुसार आप पात्र नहीं होंगे। यदि आप निश्चित नहीं हैं, तो कृपया योजना कार्यालय से पूछें।",
+      "source_fields": [
+        "eligibility_land_limit"
+      ],
+      "sources": [
+        {
+          "field": "eligibility_land_limit",
+          "source": "SRC_K1",
+          "location": "p.1, section 3",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Farmers owning cultivable land up to 2 hectares are eligible."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "benefit",
+      "scheme_ref": "SCH-001",
+      "q_en": "How much money or benefit does this scheme give?",
+      "q_hi": "इस योजना में कितनी राशि या लाभ मिलता है?",
+      "a_en": "The scheme gives ₹6,000 per year.",
+      "a_hi": "इस योजना में प्रति वर्ष ₹6,000 मिलता है।",
+      "source_fields": [
+        "benefit_amount"
+      ],
+      "sources": [
+        {
+          "field": "benefit_amount",
+          "source": "SRC_K1",
+          "location": "p.1, section 2",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Eligible farmer families receive financial help of ₹6,000 per year."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "payment",
+      "scheme_ref": "SCH-001",
+      "q_en": "When is the money paid?",
+      "q_hi": "पैसा कब मिलता है?",
+      "a_en": "Payment works like this: 3 instalments of ₹2,000, one every 4 months.",
+      "a_hi": "भुगतान इस तरह होता है: 3 किस्तों में, हर किस्त ₹2,000 की, हर 4 महीने में एक।",
+      "source_fields": [
+        "payment_frequency"
+      ],
+      "sources": [
+        {
+          "field": "payment_frequency",
+          "source": "SRC_K1",
+          "location": "p.2, section 3",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "The amount is paid in three equal instalments of ₹2,000 every four months."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "documents",
+      "scheme_ref": "SCH-001",
+      "q_en": "What documents do I need?",
+      "q_hi": "मुझे कौन-से दस्तावेज़ चाहिए?",
+      "a_en": "You need: Aadhaar card, land ownership papers, bank passbook.",
+      "a_hi": "आपको ये दस्तावेज़ चाहिए: आधार कार्ड, ज़मीन के स्वामित्व के कागज़ात, बैंक पासबुक।",
+      "source_fields": [
+        "documents_required"
+      ],
+      "sources": [
+        {
+          "field": "documents_required",
+          "source": "SRC_K1",
+          "location": "p.3, section 5",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Applicants must submit: Aadhaar card, land ownership papers and bank passbook."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "deadline",
+      "scheme_ref": "SCH-001",
+      "q_en": "What is the last date to apply?",
+      "q_hi": "आवेदन की अंतिम तारीख क्या है?",
+      "a_en": "Our sources disagree on this. According to the official guideline PDF: 31 March 2027. According to a news article: 30 April 2027. Please confirm with the scheme office before relying on either.",
+      "a_hi": "इस बारे में हमारे स्रोतों में अलग-अलग जानकारी है। आधिकारिक दिशानिर्देश PDF के अनुसार: 31 मार्च 2027। एक समाचार लेख के अनुसार: 30 अप्रैल 2027। किसी एक पर भरोसा करने से पहले कृपया योजना कार्यालय से पुष्टि करें।",
+      "source_fields": [
+        "deadline"
+      ],
+      "sources": [
+        {
+          "field": "deadline",
+          "source": "SRC_K1",
+          "location": "p.1, section 4",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Applications are accepted until 31 March 2027."
+        },
+        {
+          "field": "deadline",
+          "source": "SRC_K2",
+          "location": "paragraph 2",
+          "link": "synthetic://news/kisan-deadline-extended",
+          "evidence_text": "The last date to apply has been extended to 30 April 2027, officials said."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "how_to_apply",
+      "scheme_ref": "SCH-001",
+      "q_en": "How do I apply?",
+      "q_hi": "मैं आवेदन कैसे करूँ?",
+      "a_en": "You can apply at your Block Office or on the scheme's online portal.",
+      "a_hi": "आप अपने ब्लॉक कार्यालय में या योजना के ऑनलाइन पोर्टल पर आवेदन कर सकते हैं।",
+      "source_fields": [
+        "how_to_apply"
+      ],
+      "sources": [
+        {
+          "field": "how_to_apply",
+          "source": "SRC_K1",
+          "location": "p.3, section 6",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "Applications can be submitted at the Block Office or through the online portal."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "helpline",
+      "scheme_ref": "SCH-001",
+      "q_en": "Is there a helpline I can call?",
+      "q_hi": "क्या कोई हेल्पलाइन नंबर है जिस पर मैं कॉल कर सकूँ?",
+      "a_en": "This information is not in our approved record, so we cannot answer it. Please ask the scheme office.",
+      "a_hi": "यह जानकारी हमारे स्वीकृत रिकॉर्ड में नहीं है, इसलिए हम इसका उत्तर नहीं दे सकते। कृपया योजना कार्यालय से पूछें।",
+      "source_fields": [
+        "helpline"
+      ],
+      "sources": [
+        {
+          "field": "helpline",
+          "source": "SRC_K1",
+          "location": "whole document searched",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": ""
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "fee",
+      "scheme_ref": "SCH-001",
+      "q_en": "Do I have to pay a fee to apply?",
+      "q_hi": "क्या आवेदन करने के लिए शुल्क देना पड़ता है?",
+      "a_en": "Application fee: none (free of charge).",
+      "a_hi": "आवेदन शुल्क: कोई नहीं (निःशुल्क)।",
+      "source_fields": [
+        "application_fee"
+      ],
+      "sources": [
+        {
+          "field": "application_fee",
+          "source": "SRC_K1",
+          "location": "p.3, section 6",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": "No fee is charged for applying."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "late",
+      "scheme_ref": "SCH-001",
+      "q_en": "What happens if I apply after the last date?",
+      "q_hi": "अंतिम तारीख के बाद आवेदन करूँ तो क्या होगा?",
+      "a_en": "This information is not in our approved record, so we cannot answer it. Please ask the scheme office.",
+      "a_hi": "यह जानकारी हमारे स्वीकृत रिकॉर्ड में नहीं है, इसलिए हम इसका उत्तर नहीं दे सकते। कृपया योजना कार्यालय से पूछें।",
+      "source_fields": [
+        "late_application_rule"
+      ],
+      "sources": [
+        {
+          "field": "late_application_rule",
+          "source": "SRC_K1",
+          "location": "whole document searched",
+          "link": "synthetic://kisan-sahayata/guidelines.pdf",
+          "evidence_text": ""
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    }
+  ],
+  "SCH-002": [
+    {
+      "id": "eligibility",
+      "scheme_ref": "SCH-002",
+      "q_en": "Who is eligible for this scheme?",
+      "q_hi": "इस योजना के लिए कौन पात्र है?",
+      "a_en": "Girl students studying in classes 9 to 12 whose family income is below ₹2,50,000 per year are eligible. Note: this detail was hard to read in the source, so please confirm it with the scheme office.",
+      "a_hi": "कक्षा 9 से 12 में पढ़ने वाली वे छात्राएँ पात्र हैं जिनकी पारिवारिक आय ₹2,50,000 प्रति वर्ष से कम है। ध्यान दें: स्रोत में यह जानकारी स्पष्ट नहीं थी, इसलिए कृपया योजना कार्यालय से पुष्टि कर लें।",
+      "source_fields": [
+        "eligibility_class",
+        "eligibility_income_limit"
+      ],
+      "sources": [
+        {
+          "field": "eligibility_class",
+          "source": "SRC_B1",
+          "location": "p.1, section 3",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "Girl students studying in Classes 9 to 12 may apply."
+        },
+        {
+          "field": "eligibility_income_limit",
+          "source": "SRC_B1",
+          "location": "p.2, table 1",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "[OCR] Annual family income should be below Rs 2,50,000"
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "eligible_if",
+      "scheme_ref": "SCH-002",
+      "q_en": "Am I eligible if my family earns ₹3,00,000 a year?",
+      "q_hi": "अगर मेरे परिवार की आय ₹3,00,000 प्रति वर्ष है, तो क्या मैं पात्र हूँ?",
+      "a_en": "According to the record, the family income must be below ₹2,50,000 per year. Your family income of ₹3,00,000 is not below that limit, so you would not be eligible under this rule. If you are unsure, please check with the scheme office. Note: this detail was hard to read in the source, so please confirm it with the scheme office.",
+      "a_hi": "रिकॉर्ड के अनुसार, पारिवारिक आय ₹2,50,000 प्रति वर्ष से कम होनी चाहिए। आपके परिवार की आय ₹3,00,000 इस सीमा से कम नहीं है, इसलिए इस नियम के अनुसार आप पात्र नहीं होंगे। यदि आप निश्चित नहीं हैं, तो कृपया योजना कार्यालय से पूछें। ध्यान दें: स्रोत में यह जानकारी स्पष्ट नहीं थी, इसलिए कृपया योजना कार्यालय से पुष्टि कर लें।",
+      "source_fields": [
+        "eligibility_income_limit"
+      ],
+      "sources": [
+        {
+          "field": "eligibility_income_limit",
+          "source": "SRC_B1",
+          "location": "p.2, table 1",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "[OCR] Annual family income should be below Rs 2,50,000"
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "benefit",
+      "scheme_ref": "SCH-002",
+      "q_en": "How much money or benefit does this scheme give?",
+      "q_hi": "इस योजना में कितनी राशि या लाभ मिलता है?",
+      "a_en": "The scheme gives ₹12,000 per year.",
+      "a_hi": "इस योजना में प्रति वर्ष ₹12,000 मिलता है।",
+      "source_fields": [
+        "benefit_amount"
+      ],
+      "sources": [
+        {
+          "field": "benefit_amount",
+          "source": "SRC_B1",
+          "location": "p.1, section 2",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "A scholarship of ₹12,000 per year is given to each selected student."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "payment",
+      "scheme_ref": "SCH-002",
+      "q_en": "When is the money paid?",
+      "q_hi": "पैसा कब मिलता है?",
+      "a_en": "Payment works like this: one instalment per year.",
+      "a_hi": "भुगतान इस तरह होता है: साल में एक किस्त।",
+      "source_fields": [
+        "payment_frequency"
+      ],
+      "sources": [
+        {
+          "field": "payment_frequency",
+          "source": "SRC_B1",
+          "location": "p.2, section 4",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "The scholarship is paid once a year."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "documents",
+      "scheme_ref": "SCH-002",
+      "q_en": "What documents do I need?",
+      "q_hi": "मुझे कौन-से दस्तावेज़ चाहिए?",
+      "a_en": "You need: Aadhaar card, income certificate, school bonafide certificate.",
+      "a_hi": "आपको ये दस्तावेज़ चाहिए: आधार कार्ड, आय प्रमाण पत्र, स्कूल का बोनाफाइड प्रमाण पत्र।",
+      "source_fields": [
+        "documents_required"
+      ],
+      "sources": [
+        {
+          "field": "documents_required",
+          "source": "SRC_B1",
+          "location": "p.3, section 5",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "Documents: Aadhaar card, income certificate, school bonafide certificate."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "deadline",
+      "scheme_ref": "SCH-002",
+      "q_en": "What is the last date to apply?",
+      "q_hi": "आवेदन की अंतिम तारीख क्या है?",
+      "a_en": "The last date to apply is 31 December 2026.",
+      "a_hi": "आवेदन की अंतिम तारीख 31 दिसंबर 2026 है।",
+      "source_fields": [
+        "deadline"
+      ],
+      "sources": [
+        {
+          "field": "deadline",
+          "source": "SRC_B1",
+          "location": "p.1, section 4",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "The last date to apply is 31 December 2026."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "how_to_apply",
+      "scheme_ref": "SCH-002",
+      "q_en": "How do I apply?",
+      "q_hi": "मैं आवेदन कैसे करूँ?",
+      "a_en": "You can apply through your school.",
+      "a_hi": "आप अपने स्कूल के माध्यम से आवेदन कर सकते हैं।",
+      "source_fields": [
+        "how_to_apply"
+      ],
+      "sources": [
+        {
+          "field": "how_to_apply",
+          "source": "SRC_B1",
+          "location": "p.3, section 6",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "Students apply through their school."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "helpline",
+      "scheme_ref": "SCH-002",
+      "q_en": "Is there a helpline I can call?",
+      "q_hi": "क्या कोई हेल्पलाइन नंबर है जिस पर मैं कॉल कर सकूँ?",
+      "a_en": "Yes. The helpline number is 1800-000-0000.",
+      "a_hi": "हाँ, हेल्पलाइन नंबर 1800-000-0000 है।",
+      "source_fields": [
+        "helpline"
+      ],
+      "sources": [
+        {
+          "field": "helpline",
+          "source": "SRC_B1",
+          "location": "p.4",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "For help call the toll-free helpline 1800-000-0000."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "fee",
+      "scheme_ref": "SCH-002",
+      "q_en": "Do I have to pay a fee to apply?",
+      "q_hi": "क्या आवेदन करने के लिए शुल्क देना पड़ता है?",
+      "a_en": "This information is not in our approved record, so we cannot answer it. Please ask the scheme office.",
+      "a_hi": "यह जानकारी हमारे स्वीकृत रिकॉर्ड में नहीं है, इसलिए हम इसका उत्तर नहीं दे सकते। कृपया योजना कार्यालय से पूछें।",
+      "source_fields": [
+        "application_fee"
+      ],
+      "sources": [
+        {
+          "field": "application_fee",
+          "source": "SRC_B1",
+          "location": "whole document searched",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": ""
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    },
+    {
+      "id": "late",
+      "scheme_ref": "SCH-002",
+      "q_en": "What happens if I apply after the last date?",
+      "q_hi": "अंतिम तारीख के बाद आवेदन करूँ तो क्या होगा?",
+      "a_en": "Applications received after the last date are not accepted.",
+      "a_hi": "अंतिम तारीख के बाद मिले आवेदन स्वीकार नहीं किए जाते।",
+      "source_fields": [
+        "late_application_rule"
+      ],
+      "sources": [
+        {
+          "field": "late_application_rule",
+          "source": "SRC_B1",
+          "location": "p.1, section 4",
+          "link": "synthetic://beti-chhatravritti/guidelines.pdf",
+          "evidence_text": "Applications received after the last date will not be accepted."
+        }
+      ],
+      "writer": "template",
+      "checker": "passed"
+    }
+  ]
+}
